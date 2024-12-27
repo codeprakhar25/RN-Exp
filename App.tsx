@@ -36,7 +36,6 @@ function App(): JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
-
         <TouchableOpacity
           onPress={() => {
             codePush.sync({
